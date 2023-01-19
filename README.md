@@ -1,24 +1,18 @@
-# README
+# requirements
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Ruby version: `3.0.0`
+- `bundler gem`
 
-Things you may want to cover:
+# Setup
 
-* Ruby version
+Open the project folder and run: 
 
-* System dependencies
+- `bundle install`
 
-* Configuration
+# run project
 
-* Database creation
+Run this command:
 
-* Database initialization
+`rails s` 
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+you should see this api endpint on [http://localhost:3000/api/movies](http://localhost:3000/api/movies) and a movie instance on [http://localhost:3000/api/movies/3](http://localhost:3000/api/movies/3)
